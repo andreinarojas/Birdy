@@ -1,0 +1,149 @@
+body{
+    font-family: Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #C89343;
+}
+body.inicio{
+    background-image: url(https://www.officialbirdy.com/assets/img/BirdyHeaderImage.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #C89343;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav a.titulo{
+    font-size: 24px;
+    padding: 10px;
+}
+
+form{
+    background-color:#9999;
+    border-radius: 5px;
+    color:black;
+    font-size: 12px;
+    padding: 20px;
+    margin: 10px auto;
+    width: 300px;  
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+    
+}
+
+.campo{
+    border: solid 1px #cccccc;
+    padding: 10px;
+}
+
+.campo:focus{
+    border-color:red;
+}
+
+
+
+.boton {
+  width: 100%;
+
+}
+textarea{
+  resize: none;
+}
+main.home {
+  min-height: 100vh; 
+}
+main.biografia{
+  height: 100vh
+}
+main.musica{
+  height: 100vh
+}
+main.contacto{
+  height: 100vh
+}
+
+footer.footermusica{
+  margin-top: 50px;
+}
+#albums{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px   
+}
+
+footer{
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+
+}
+footer p{
+  margin: 5px 0px;
+}
+footer div a{
+  margin: 0px 20px;
+  text-decoration: none;
+  color: white;
+  
+}
+footer div a:hover{
+color:#C89343 ;
+
+}
+.tabla {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 480px){
+  .topnav a{
+    font-size: small;  
+  }
+  #albums{
+    display: block;
+  
+  }
+  
+}
+@media screen and (min-width: 481px) and (max-width: 1024px){
+  .topnav a{
+    font-size: medium;   
+  }
+  #albums{
+    display: block;
+  }
+}
